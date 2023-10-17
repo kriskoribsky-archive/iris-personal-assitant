@@ -1,0 +1,45 @@
+Videos used as inspiration:
+
+Traversy media ---> https://www.youtube.com/watch?v=x8xjj6cR9Nc&list=PLaMyNbgH-S9kIyQEjT8GXpvvzQ03HBH8T&index
+
+
+Libraries used in this project:
+
+#Graphical User Interface:
+Tkinter ---> https://docs.python.org/3/library/tkinter.html         (default GUI python library) ---> used for early versions of app
+wxPython ---> https://pypi.org/project/wxPython/                    (better GUI library)
+Kivy ---> https://pypi.org/project/Kivy/                            (better GUI library) ---> used for later versions of app, better (main)
+
+#Speech-to-Text:
+SpeechRecognition ---> https://pypi.org/project/SpeechRecognition/  https://www.ibm.com/cloud/watson-speech-to-text
+
+
+#Text-to-Speech:
+gTTS ---> https://pypi.org/project/gTTS/   https://gtts.readthedocs.io/en/latest/           (used in earlier versions, later there were errors)
+pyttsx3 ---> https://pypi.org/project/pyttsx3/  https://pyttsx3.readthedocs.io/en/latest/   (used later on, works offline, slightly worse quality)
+
+#Other required libraries:
+PyAudio ---> https://pypi.org/project/PyAudio/
+Playsound ---> https://pypi.org/project/playsound/
+py2exe ---> https://pypi.org/project/py2exe/    http://www.py2exe.org/
+
+#Default python libraries used:
+Random ---> https://docs.python.org/3/library/random.html                       (default python library)
+Time ---> https://docs.python.org/2/library/time.html                           (default python library)
+webbrowser ---> https://docs.python.org/2/library/webbrowser.html               (default python library)
+Python OS ---> https://docs.python.org/3/library/os.html                        (default python library)
+threading ---> https://docs.python.org/3/library/threading.html                 (defualt python library)
+multiprocessing ---> https://docs.python.org/3/library/multiprocessing.html     (defualt python library)
+
+
+Aditional helpful links:
+
+https://stackoverflow.com/questions/42054151/python-speech-recognition-response-very-slow
+https://stackoverflow.com/questions/50548088/make-python-speech-recognition-faster
+https://dev.to/eshleron/how-to-convert-py-to-exe-step-by-step-guide-3cfi
+https://kivy.org/doc/stable/guide/packaging-windows.html
+http://www.py2exe.org/index.cgi/Tutorial
+
+Very important error fix:
+
+https://stackoverflow.com/questions/41817607/python-kivy-assertionerror-none-is-not-callable-error-on-function-call-by-b

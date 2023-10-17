@@ -1,0 +1,3 @@
+color in HTML format used in designing GUI for this application:
+
+font main: #227f94
